@@ -11,13 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140722074700) do
+ActiveRecord::Schema.define(version: 20140722075055) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "role_categories", force: true do |t|
-    t.integer  "parent_id"
+  create_table "departments", force: true do |t|
     t.string   "name"
     t.text     "description"
     t.datetime "created_at"
@@ -25,6 +24,7 @@ ActiveRecord::Schema.define(version: 20140722074700) do
   end
 
   create_table "roles", force: true do |t|
+    t.integer  "department_id"
     t.string   "position"
     t.text     "description"
     t.integer  "role_category_id"

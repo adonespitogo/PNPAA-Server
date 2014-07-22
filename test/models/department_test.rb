@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class RoleCategoryTest < ActiveSupport::TestCase
+class DepartmentTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
