@@ -39,4 +39,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 gem 'seedbank'
+gem 'rabl'
+gem 'oj'
 
