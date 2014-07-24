@@ -41,6 +41,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'seedbank'
 gem 'rabl'
 gem 'oj'
+gem 'devise'
 
 group :production do
   gem 'rails_12factor'
