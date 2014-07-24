@@ -43,7 +43,7 @@ gem 'rabl'
 gem 'oj'
 gem 'devise'
 
-group :development, :text do
+group :development, :test do
   gem 'debugger'
 end
 
