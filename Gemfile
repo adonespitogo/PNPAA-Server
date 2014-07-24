@@ -43,6 +43,10 @@ gem 'rabl'
 gem 'oj'
 gem 'devise'
 
+group :development, :text do
+  gem 'debugger'
+end
+
 group :production do
   gem 'rails_12factor'
 end
