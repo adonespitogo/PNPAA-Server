@@ -1,7 +1,7 @@
 class RegistrationsController < Devise::RegistrationsController
 
   def create
-    debugger
+    
     build_resource(sign_up_params)
 
     if resource.save
