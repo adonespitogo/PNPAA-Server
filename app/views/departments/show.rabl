@@ -1,3 +1,3 @@
 extends "departments/base"
-collection @departments
 
+object @department
