@@ -143,6 +143,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  mail
   oj
   pg
   rabl
